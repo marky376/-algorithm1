@@ -1,0 +1,11 @@
+numbers = input("Write a list or array of numbers"
+OUTPUT = "Sum of the squares of the numbers"
+
+SumOfSquares = 0
+
+
+for each number in numbers
+    square = number * number
+    SumOfSquares = SumOfSquares + square
+
+return SumOfSquares
